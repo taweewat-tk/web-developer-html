@@ -1,0 +1,151 @@
+.nav-menu {
+  font-size: 12px;
+}
+
+.button-border {
+  border: 2px solid #ffffff;
+  border-radius: 0px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.services-title {
+  letter-spacing: 2px;
+}
+
+.text-development {
+  letter-spacing: 10px;
+  font-size: 24px;
+}
+
+.text-logo {
+  font-size: 24px;
+}
+
+.area-carousel-responsive {
+  height: 100%;
+}
+
+.services-title::after {
+  content: ".";
+  color: #e29d00;
+}
+
+.nav-pills .nav-link.active {
+  background-color: white !important;
+  color: #e29d00;
+  text-transform: uppercase;
+}
+
+.nav-pills .nav-link {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.padding-section {
+  padding-top: 100px;
+}
+
+.margin-section {
+  margin-top: 100px;
+}
+
+.margin-tabs-section {
+  margin-top: 80px;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  font-size: 15px;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.margin-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.bg-count-section {
+  width: 100%;
+  background-image: url("./image/count-background.jpg");
+  background-position: right, left;
+  background-size: cover;
+  position: relative;
+}
+
+.area-count {
+  margin-top: 0px;
+}
+
+.text-count-section {
+  font-size: 12px;
+}
+
+.number-count-section {
+  font-size: 50px;
+}
+
+.padding-count-section {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.filter-count-section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.nav-item > button {
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1322px) {
+  .area-carousel-responsive {
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .text-development {
+    letter-spacing: 0px;
+    font-size: 20px;
+  }
+  .text-logo {
+    font-size: 20px;
+  }
+  .nav-item > button {
+    letter-spacing: 0px;
+  }
+
+  .nav-pills .nav-link {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .footer {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: 12px;
+  }
+
+  .area-count {
+    margin-top: auto;
+  }
+}
